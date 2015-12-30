@@ -20,6 +20,8 @@
 		BF38A12D1C33957E00BFE462 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A12C1C33957E00BFE462 /* UserViewController.swift */; };
 		BF38A12F1C33A9A300BFE462 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF38A12E1C33A9A300BFE462 /* Images.xcassets */; };
 		BF38A13C1C33B7E100BFE462 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A13B1C33B7E100BFE462 /* SuperViewController.swift */; };
+		BF38A1401C33C59400BFE462 /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A13F1C33C59400BFE462 /* UIColor_Extension.swift */; };
+		BF38A1421C33C8D600BFE462 /* CommonDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A1411C33C8D600BFE462 /* CommonDefine.swift */; };
 		BF74CB101C33879600E9DCDA /* emotion0.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF74CAE31C33879600E9DCDA /* emotion0.gif */; };
 		BF74CB111C33879600E9DCDA /* emotion1.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF74CAE41C33879600E9DCDA /* emotion1.gif */; };
 		BF74CB121C33879600E9DCDA /* emotion10.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF74CAE51C33879600E9DCDA /* emotion10.gif */; };
@@ -55,6 +57,8 @@
 		BF38A12C1C33957E00BFE462 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		BF38A12E1C33A9A300BFE462 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF38A13B1C33B7E100BFE462 /* SuperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		BF38A13F1C33C59400BFE462 /* UIColor_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
+		BF38A1411C33C8D600BFE462 /* CommonDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDefine.swift; sourceTree = "<group>"; };
 		BF74CAE31C33879600E9DCDA /* emotion0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emotion0.gif; sourceTree = "<group>"; };
 		BF74CAE41C33879600E9DCDA /* emotion1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emotion1.gif; sourceTree = "<group>"; };
 		BF74CAE51C33879600E9DCDA /* emotion10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emotion10.gif; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 		BF38A00B1C33891C00BFE462 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BF38A1411C33C8D600BFE462 /* CommonDefine.swift */,
 				BF38A0111C33899900BFE462 /* JYTabBarController.swift */,
 				BF38A13B1C33B7E100BFE462 /* SuperViewController.swift */,
 			);
@@ -226,6 +231,7 @@
 		BF38A00F1C33894F00BFE462 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BF38A13F1C33C59400BFE462 /* UIColor_Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -494,8 +500,10 @@
 			files = (
 				BF0A61A71C337C5F00D439A8 /* ViewController.swift in Sources */,
 				BF38A13C1C33B7E100BFE462 /* SuperViewController.swift in Sources */,
+				BF38A1401C33C59400BFE462 /* UIColor_Extension.swift in Sources */,
 				BF38A12D1C33957E00BFE462 /* UserViewController.swift in Sources */,
 				BF0A61A51C337C5F00D439A8 /* AppDelegate.swift in Sources */,
+				BF38A1421C33C8D600BFE462 /* CommonDefine.swift in Sources */,
 				BF38A1251C33955000BFE462 /* ChatListViewController.swift in Sources */,
 				BF38A1291C33956F00BFE462 /* DiscoverViewController.swift in Sources */,
 				BF38A0121C33899900BFE462 /* JYTabBarController.swift in Sources */,
