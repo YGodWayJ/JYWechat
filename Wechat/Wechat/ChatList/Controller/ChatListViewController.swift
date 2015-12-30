@@ -8,6 +8,6 @@
 
 import UIKit
 
-class ChatListViewController: UIViewController {
+class ChatListViewController: SuperViewController {
 
 }

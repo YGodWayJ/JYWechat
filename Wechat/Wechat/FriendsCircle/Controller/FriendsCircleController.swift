@@ -8,6 +8,6 @@
 
 import UIKit
 
-class FriendsCircleController: UIViewController {
+class FriendsCircleController: SuperViewController {
 
 }

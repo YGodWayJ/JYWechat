@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class JYTabBarController: UITabBarController {
     private var tabBarBGView: UIImageView!
@@ -16,6 +17,14 @@ class JYTabBarController: UITabBarController {
         
         self.tabBarBGView = UIImageView()
         self.tabBarBGView.image = UIImage(named: "tabbarBkg")
+        self.view.addSubview(self.tabBarBGView)
+        self.tabBarBGView.snp_makeConstraints { (make) -> Void in
+            //
+        }
         
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
 }

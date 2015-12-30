@@ -8,6 +8,6 @@
 
 import UIKit
 
-class UserViewController: UIViewController {
+class UserViewController: SuperViewController {
 
 }

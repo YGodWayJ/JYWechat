@@ -19,6 +19,7 @@
 		BF38A12B1C33957500BFE462 /* FriendsCircleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A12A1C33957500BFE462 /* FriendsCircleController.swift */; };
 		BF38A12D1C33957E00BFE462 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A12C1C33957E00BFE462 /* UserViewController.swift */; };
 		BF38A12F1C33A9A300BFE462 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF38A12E1C33A9A300BFE462 /* Images.xcassets */; };
+		BF38A13C1C33B7E100BFE462 /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A13B1C33B7E100BFE462 /* SuperViewController.swift */; };
 		BF74CB101C33879600E9DCDA /* emotion0.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF74CAE31C33879600E9DCDA /* emotion0.gif */; };
 		BF74CB111C33879600E9DCDA /* emotion1.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF74CAE41C33879600E9DCDA /* emotion1.gif */; };
 		BF74CB121C33879600E9DCDA /* emotion10.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF74CAE51C33879600E9DCDA /* emotion10.gif */; };
@@ -53,6 +54,7 @@
 		BF38A12A1C33957500BFE462 /* FriendsCircleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCircleController.swift; sourceTree = "<group>"; };
 		BF38A12C1C33957E00BFE462 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		BF38A12E1C33A9A300BFE462 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF38A13B1C33B7E100BFE462 /* SuperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
 		BF74CAE31C33879600E9DCDA /* emotion0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emotion0.gif; sourceTree = "<group>"; };
 		BF74CAE41C33879600E9DCDA /* emotion1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emotion1.gif; sourceTree = "<group>"; };
 		BF74CAE51C33879600E9DCDA /* emotion10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emotion10.gif; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				BF0A61A31C337C5F00D439A8 /* Wechat */,
+				BF38A00A1C3388E700BFE462 /* Support */,
 				BF0A61A21C337C5F00D439A8 /* Products */,
 				8D1B7575E29FFCA947D5DF3C /* Pods */,
 				08DD611EDB60A03C9D90080F /* Frameworks */,
@@ -133,7 +136,6 @@
 				BF38A0081C3388CC00BFE462 /* FriendsCircle */,
 				BF38A0091C3388CC00BFE462 /* User */,
 				BF74B9011C33830100E9DCDA /* Resource */,
-				BF38A00A1C3388E700BFE462 /* Support */,
 			);
 			path = Wechat;
 			sourceTree = "<group>";
@@ -192,13 +194,15 @@
 				BF0A61AD1C337C5F00D439A8 /* LaunchScreen.storyboard */,
 				BF0A61B01C337C5F00D439A8 /* Info.plist */,
 			);
-			path = Support;
+			name = Support;
+			path = Wechat/Support;
 			sourceTree = "<group>";
 		};
 		BF38A00B1C33891C00BFE462 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				BF38A0111C33899900BFE462 /* JYTabBarController.swift */,
+				BF38A13B1C33B7E100BFE462 /* SuperViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -489,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF0A61A71C337C5F00D439A8 /* ViewController.swift in Sources */,
+				BF38A13C1C33B7E100BFE462 /* SuperViewController.swift in Sources */,
 				BF38A12D1C33957E00BFE462 /* UserViewController.swift in Sources */,
 				BF0A61A51C337C5F00D439A8 /* AppDelegate.swift in Sources */,
 				BF38A1251C33955000BFE462 /* ChatListViewController.swift in Sources */,
