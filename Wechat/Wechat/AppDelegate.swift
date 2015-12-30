@@ -16,6 +16,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.backgroundColor = UIColor.whiteColor()
+        
+        let tabBC = JYTabBarController()
+        
+        let chatListVC = ChatListViewController()
+        let chatListNC = UINavigationController(rootViewController: chatListVC)
+        chatListVC.title = "微信"
+        
+        let contactsVC = ContactsViewController()
+        let contactsNC = UINavigationController(rootViewController: contactsVC)
+        contactsVC.title = "通讯录"
+        
+        let discoverVC = DiscoverViewController()
+        let discoverNC = UINavigationController(rootViewController: discoverVC)
+        discoverVC.title = "发现"
+        
+        let userVC = UserViewController()
+        let userNC = UINavigationController(rootViewController: userVC)
+        userVC.title = "我"
+        
+        tabBC.viewControllers = [chatListNC, contactsNC, discoverNC, userNC]
+        
+        window?.rootViewController = tabBC
+        
+        window?.makeKeyAndVisible()
         return true
     }
 

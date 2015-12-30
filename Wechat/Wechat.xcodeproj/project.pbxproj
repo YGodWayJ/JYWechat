@@ -13,11 +13,11 @@
 		BF0A61AC1C337C5F00D439A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0A61AB1C337C5F00D439A8 /* Assets.xcassets */; };
 		BF0A61AF1C337C5F00D439A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0A61AD1C337C5F00D439A8 /* LaunchScreen.storyboard */; };
 		BF38A0121C33899900BFE462 /* JYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A0111C33899900BFE462 /* JYTabBarController.swift */; };
-		BF38A0141C3389C100BFE462 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A0131C3389C100BFE462 /* ChatListViewController.swift */; };
-		BF38A0161C3389DA00BFE462 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A0151C3389DA00BFE462 /* DiscoverViewController.swift */; };
-		BF38A0181C3389F200BFE462 /* FriendsCircleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A0171C3389F200BFE462 /* FriendsCircleController.swift */; };
-		BF38A01A1C338A0100BFE462 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A0191C338A0100BFE462 /* UserViewController.swift */; };
-		BF38A01C1C338A1100BFE462 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A01B1C338A1100BFE462 /* ContactsViewController.swift */; };
+		BF38A1251C33955000BFE462 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A1241C33955000BFE462 /* ChatListViewController.swift */; };
+		BF38A1271C33956800BFE462 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A1261C33956800BFE462 /* ContactsViewController.swift */; };
+		BF38A1291C33956F00BFE462 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A1281C33956F00BFE462 /* DiscoverViewController.swift */; };
+		BF38A12B1C33957500BFE462 /* FriendsCircleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A12A1C33957500BFE462 /* FriendsCircleController.swift */; };
+		BF38A12D1C33957E00BFE462 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38A12C1C33957E00BFE462 /* UserViewController.swift */; };
 		BF74CB101C33879600E9DCDA /* emotion0.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF74CAE31C33879600E9DCDA /* emotion0.gif */; };
 		BF74CB111C33879600E9DCDA /* emotion1.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF74CAE41C33879600E9DCDA /* emotion1.gif */; };
 		BF74CB121C33879600E9DCDA /* emotion10.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF74CAE51C33879600E9DCDA /* emotion10.gif */; };
@@ -74,11 +74,11 @@
 		BF0A61AE1C337C5F00D439A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF0A61B01C337C5F00D439A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		BF38A0111C33899900BFE462 /* JYTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYTabBarController.swift; sourceTree = "<group>"; };
-		BF38A0131C3389C100BFE462 /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
-		BF38A0151C3389DA00BFE462 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		BF38A0171C3389F200BFE462 /* FriendsCircleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCircleController.swift; sourceTree = "<group>"; };
-		BF38A0191C338A0100BFE462 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
-		BF38A01B1C338A1100BFE462 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		BF38A1241C33955000BFE462 /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		BF38A1261C33956800BFE462 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		BF38A1281C33956F00BFE462 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		BF38A12A1C33957500BFE462 /* FriendsCircleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCircleController.swift; sourceTree = "<group>"; };
+		BF38A12C1C33957E00BFE462 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		BF74CAE31C33879600E9DCDA /* emotion0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emotion0.gif; sourceTree = "<group>"; };
 		BF74CAE41C33879600E9DCDA /* emotion1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emotion1.gif; sourceTree = "<group>"; };
 		BF74CAE51C33879600E9DCDA /* emotion10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = emotion10.gif; sourceTree = "<group>"; };
@@ -173,7 +173,8 @@
 		BF38A0051C3388CC00BFE462 /* ChatList */ = {
 			isa = PBXGroup;
 			children = (
-				BF38A0131C3389C100BFE462 /* ChatListViewController.swift */,
+				BF38A01D1C33949300BFE462 /* Controller */,
+				BF38A01E1C33949300BFE462 /* View */,
 			);
 			path = ChatList;
 			sourceTree = "<group>";
@@ -181,7 +182,8 @@
 		BF38A0061C3388CC00BFE462 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				BF38A01B1C338A1100BFE462 /* ContactsViewController.swift */,
+				BF38A01F1C3394A000BFE462 /* Controller */,
+				BF38A0201C3394A000BFE462 /* View */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -189,7 +191,8 @@
 		BF38A0071C3388CC00BFE462 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				BF38A0151C3389DA00BFE462 /* DiscoverViewController.swift */,
+				BF38A0251C3394DA00BFE462 /* Controller */,
+				BF38A0261C3394DA00BFE462 /* View */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -197,7 +200,8 @@
 		BF38A0081C3388CC00BFE462 /* FriendsCircle */ = {
 			isa = PBXGroup;
 			children = (
-				BF38A0171C3389F200BFE462 /* FriendsCircleController.swift */,
+				BF38A0211C3394AB00BFE462 /* Controller */,
+				BF38A0221C3394AB00BFE462 /* View */,
 			);
 			path = FriendsCircle;
 			sourceTree = "<group>";
@@ -205,7 +209,8 @@
 		BF38A0091C3388CC00BFE462 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				BF38A0191C338A0100BFE462 /* UserViewController.swift */,
+				BF38A0231C3394D000BFE462 /* Controller */,
+				BF38A0241C3394D000BFE462 /* View */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -255,6 +260,81 @@
 			sourceTree = "<group>";
 		};
 		BF38A0101C33894F00BFE462 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF38A01D1C33949300BFE462 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF38A1241C33955000BFE462 /* ChatListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF38A01E1C33949300BFE462 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF38A01F1C3394A000BFE462 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF38A1261C33956800BFE462 /* ContactsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF38A0201C3394A000BFE462 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF38A0211C3394AB00BFE462 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF38A12A1C33957500BFE462 /* FriendsCircleController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF38A0221C3394AB00BFE462 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF38A0231C3394D000BFE462 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF38A12C1C33957E00BFE462 /* UserViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF38A0241C3394D000BFE462 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF38A0251C3394DA00BFE462 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF38A1281C33956F00BFE462 /* DiscoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF38A0261C3394DA00BFE462 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -445,14 +525,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF38A01A1C338A0100BFE462 /* UserViewController.swift in Sources */,
 				BF0A61A71C337C5F00D439A8 /* ViewController.swift in Sources */,
+				BF38A12D1C33957E00BFE462 /* UserViewController.swift in Sources */,
 				BF0A61A51C337C5F00D439A8 /* AppDelegate.swift in Sources */,
-				BF38A0141C3389C100BFE462 /* ChatListViewController.swift in Sources */,
+				BF38A1251C33955000BFE462 /* ChatListViewController.swift in Sources */,
+				BF38A1291C33956F00BFE462 /* DiscoverViewController.swift in Sources */,
 				BF38A0121C33899900BFE462 /* JYTabBarController.swift in Sources */,
-				BF38A01C1C338A1100BFE462 /* ContactsViewController.swift in Sources */,
-				BF38A0161C3389DA00BFE462 /* DiscoverViewController.swift in Sources */,
-				BF38A0181C3389F200BFE462 /* FriendsCircleController.swift in Sources */,
+				BF38A12B1C33957500BFE462 /* FriendsCircleController.swift in Sources */,
+				BF38A1271C33956800BFE462 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
