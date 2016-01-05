@@ -66,6 +66,7 @@ let Color_TextBlue          =   UIColor.colorWithHexString("2fa8ff")        // �
 let Color_GrayBig           =   UIColor.colorWithHexString("6f6f6f")        // 大号字体灰
 let Color_GrayLittle        =   UIColor.colorWithHexString("8c8d8f")        // 小号字体灰
 let Color_EmptyPageText     =   UIColor.colorWithHexString("94b3c8")        // 空白页文字颜色
+let Color_WeChatGreen       =   RGB(14, green: 180, blue: 0)
 
 //------------------------------------系统---------------------------------------------
 let iOSVersionFloat = NSString(string: UIDevice.currentDevice().systemName).floatValue  // 获取系统版本
